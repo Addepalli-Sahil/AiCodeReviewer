@@ -129,3 +129,13 @@ that supports Streamlit:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for
 the complete license text.
+
+## Commit attribution
+
+This repository does not use Copilot co-author attribution. The local Git
+configuration rejects commit messages containing a Copilot co-author trailer.
+After cloning, enable the repository hook with:
+
+```bash
+git config core.hooksPath .githooks
+```
